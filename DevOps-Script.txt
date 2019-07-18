@@ -1,0 +1,32 @@
+pipeline {
+agent
+    {
+        node {
+                label 'master'
+                //customWorkspace "${env.JobPath}"
+              }
+    }
+    stages 
+    {
+        stage('Start') {
+            steps {
+                echo 'Starting DevOps Pipeline'
+            }
+        }
+        stage ('Code and Build') {
+            steps {
+                build job: 'Code and Build'
+            }
+        }
+        stage ('Deploy') {
+            steps {
+                build job: 'Deploy'
+            }
+        }
+        stage('End') {
+            steps {
+                echo 'Completing DevOps Pipeline'
+            }
+        }
+    }
+}
