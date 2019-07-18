@@ -30,8 +30,3 @@ agent
         }
     }
 }
-post {
-        failure {    // notify users when the Pipeline fails
-            mail(to: 'me@example.com', subject: "Failed Pipeline", body: "Something is wrong.")
-        }
-    }
