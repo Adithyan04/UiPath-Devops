@@ -1235,14 +1235,14 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\uipathuser\\.nuget\\packages\\": {}
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "UiPath-DevOps",
       "projectName": "UiPath-DevOps",
       "projectPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\.local",
-      "packagesPath": "C:\\Users\\uipathuser\\.nuget\\packages\\",
+      "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\.local"
     },
     "frameworks": {
