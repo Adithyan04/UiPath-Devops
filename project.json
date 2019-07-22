@@ -12,9 +12,9 @@
     "UiPath.UIAutomation.Activities": "[19.7.0]"
   },
   "webServices": [],
-  "schemaVersion": "4.0",
-  "studioVersion": "19.7.0.0",
-  "projectVersion": "1.1.19",
+  "schemaVersion": "3.2",
+  "studioVersion": "19.5.0.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,

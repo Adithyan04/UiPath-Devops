@@ -1235,14 +1235,14 @@
     ]
   },
   "packageFolders": {
-    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\": {}
+    "C:\\Users\\uipathuser\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "UiPath-DevOps",
       "projectName": "UiPath-DevOps",
       "projectPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\.local",
-      "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\uipathuser\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\.local"
     },
     "frameworks": {
@@ -1286,28 +1286,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'PropertyChanged.Fody 2.6.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "PropertyChanged.Fody"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Fody 3.3.2' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "Fody"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Rest.ClientRuntime 2.3.20' from source 'https://gallery.uipath.com/api/v2': This package is signed but not by a trusted signer.",
-      "libraryId": "Microsoft.Rest.ClientRuntime"
-    }
-  ]
+  }
 }
