@@ -23,11 +23,6 @@ agent
                 build job: 'Deploy'
             }
         }
-        stage ('Unit Tests') {
-            steps {
-                build job: 'Unit Test'
-            }
-        }
         stage('End') {
             steps {
                 echo 'Completing DevOps Pipeline'
