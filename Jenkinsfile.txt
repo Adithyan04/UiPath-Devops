@@ -30,3 +30,4 @@ agent
         }
     }
 }
+//UiRobot -file "C:\Users\uipathuser\Documents\UiPath\UiPath_TestingFramework\UiPath_TestingFramework\RunAllTests.xaml"
