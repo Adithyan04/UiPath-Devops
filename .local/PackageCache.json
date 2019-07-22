@@ -127,25 +127,6 @@
     },
     {
       "Package": {
-        "Id": "UiPath.Vision",
-        "Version": "1.6.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyCloud.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRE11.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRE12.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Core.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.dll"
-      ]
-    },
-    {
-      "Package": {
         "Id": "Microsoft.Activities.Extensions",
         "Version": "2.0.6.9"
       },

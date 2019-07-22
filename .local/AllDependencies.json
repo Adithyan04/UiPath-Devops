@@ -1231,19 +1231,18 @@
       "UiPath.Excel.Activities >= 2.6.2 <= 2.6.2",
       "UiPath.Mail.Activities >= 1.5.1 <= 1.5.1",
       "UiPath.System.Activities >= 19.7.0 <= 19.7.0",
-      "UiPath.UIAutomation.Activities >= 19.7.0 <= 19.7.0",
-      "UiPath.Vision >= 1.6.1 <= 1.6.1"
+      "UiPath.UIAutomation.Activities >= 19.7.0 <= 19.7.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\uipathuser\\.nuget\\packages\\": {}
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "UiPath-DevOps",
       "projectName": "UiPath-DevOps",
       "projectPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\.local",
-      "packagesPath": "C:\\Users\\uipathuser\\.nuget\\packages\\",
+      "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\.local"
     },
     "frameworks": {
@@ -1283,14 +1282,32 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[19.7.0, 19.7.0]"
-          },
-          "UiPath.Vision": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[1.6.1, 1.6.1]"
           }
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PropertyChanged.Fody 2.6.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "PropertyChanged.Fody"
+    },
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Fody 3.3.2' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "Fody"
+    },
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Rest.ClientRuntime 2.3.20' from source 'https://gallery.uipath.com/api/v2': This package is signed but not by a trusted signer.",
+      "libraryId": "Microsoft.Rest.ClientRuntime"
+    }
+  ]
 }
