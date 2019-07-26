@@ -1,0 +1,150 @@
+﻿
+========================================================== Test Run Started ==========================================================
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:56:18 AM] ---------- Started Executing [ Tests_Repository\FunctionalTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:56:19 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:00.486)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:56:19 AM] ---------- Finished Execution: 1/1 Tests Passed (00:00:01.607) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:56:19 AM] ---------- Started Executing [ Tests_Repository\UnitTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:56:19 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:00.089)     
+[25/07/2019 07:56:20 AM]     PASSED     EmailValidation_EmailInvalid_ValidationFailed                                (00:00:00.252)     
+[25/07/2019 07:56:20 AM]     PASSED     EmailValidation_EmailNotNullAndValid_Validated                               (00:00:00.242)     
+[25/07/2019 07:56:21 AM]     PASSED     FillDictionary_DictionariesContainSameKeyValuePairs_DictionariesAreEqual     (00:00:00.274)     
+[25/07/2019 07:56:21 AM]     PASSED     GenerateListOfStrings_ReturnsList_ListDoesntContainExpected                  (00:00:00.095)     
+[25/07/2019 07:56:21 AM]     PASSED     IdValidation_UserIdLengthNotEqual10_BusinessRuleExceptionThrown              (00:00:00.114)     
+[25/07/2019 07:56:25 AM]     FAILED     NavigateToReddit_FindElement_ElementFound                                    (00:00:03.232)     >> Test execution stopped due to an error: Activity timeout exceeded. Type: UiPath.Core.Activities.ActivityTimeoutException.  Source: Find Element - Reddit Image. <<
+[25/07/2019 07:56:28 AM]     PASSED     NavigateToReddit_UnableToFindElement_ActivityTimeoutExceptionThrown          (00:00:03.260)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:56:29 AM] ---------- Finished Execution: 7/8 Tests Passed (00:00:11.280) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+========================================================= Test Run Completed =========================================================
+
+========================================================== Test Run Started ==========================================================
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:58:58 AM] ---------- Started Executing [ Tests_Repository\FunctionalTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:58:59 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:00.476)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:58:59 AM] ---------- Finished Execution: 1/1 Tests Passed (00:00:01.701) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:58:59 AM] ---------- Started Executing [ Tests_Repository\UnitTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:59:00 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:00.097)     
+[25/07/2019 07:59:00 AM]     PASSED     EmailValidation_EmailInvalid_ValidationFailed                                (00:00:00.256)     
+[25/07/2019 07:59:01 AM]     PASSED     EmailValidation_EmailNotNullAndValid_Validated                               (00:00:00.256)     
+[25/07/2019 07:59:01 AM]     PASSED     FillDictionary_DictionariesContainSameKeyValuePairs_DictionariesAreEqual     (00:00:00.268)     
+[25/07/2019 07:59:01 AM]     PASSED     GenerateListOfStrings_ReturnsList_ListDoesntContainExpected                  (00:00:00.082)     
+[25/07/2019 07:59:02 AM]     PASSED     IdValidation_UserIdLengthNotEqual10_BusinessRuleExceptionThrown              (00:00:00.100)     
+[25/07/2019 07:59:05 AM]     PASSED     NavigateToReddit_FindElement_ElementFound                                    (00:00:03.131)     
+[25/07/2019 07:59:08 AM]     PASSED     NavigateToReddit_UnableToFindElement_ActivityTimeoutExceptionThrown          (00:00:02.930)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 07:59:08 AM] ---------- Finished Execution: 8/8 Tests Passed (00:00:10.775) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+========================================================= Test Run Completed =========================================================
+
+========================================================== Test Run Started ==========================================================
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:51:43 AM] ---------- Started Executing [ Tests_Repository\FunctionalTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:51:46 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:01.033)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:51:46 AM] ---------- Finished Execution: 1/1 Tests Passed (00:00:03.698) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:51:47 AM] ---------- Started Executing [ Tests_Repository\UnitTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:51:49 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:00.740)     
+[25/07/2019 08:51:51 AM]     PASSED     EmailValidation_EmailInvalid_ValidationFailed                                (00:00:00.898)     
+[25/07/2019 08:51:53 AM]     PASSED     EmailValidation_EmailNotNullAndValid_Validated                               (00:00:01.012)     
+[25/07/2019 08:51:56 AM]     PASSED     FillDictionary_DictionariesContainSameKeyValuePairs_DictionariesAreEqual     (00:00:01.070)     
+[25/07/2019 08:51:58 AM]     PASSED     GenerateListOfStrings_ReturnsList_ListDoesntContainExpected                  (00:00:00.788)     
+[25/07/2019 08:52:01 AM]     PASSED     IdValidation_UserIdLengthNotEqual10_BusinessRuleExceptionThrown              (00:00:01.037)     
+[25/07/2019 08:52:07 AM]     PASSED     NavigateToReddit_FindElement_ElementFound                                    (00:00:04.407)     
+[25/07/2019 08:52:13 AM]     PASSED     NavigateToReddit_UnableToFindElement_ActivityTimeoutExceptionThrown          (00:00:04.362)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:52:14 AM] ---------- Finished Execution: 8/8 Tests Passed (00:00:31.096) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+========================================================= Test Run Completed =========================================================
+
+========================================================== Test Run Started ==========================================================
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:58:04 AM] ---------- Started Executing [ Tests_Repository\FunctionalTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:58:08 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:01.665)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:58:09 AM] ---------- Finished Execution: 1/1 Tests Passed (00:00:06.175) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:58:11 AM] ---------- Started Executing [ Tests_Repository\UnitTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:58:14 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:01.366)     
+[25/07/2019 08:58:18 AM]     PASSED     EmailValidation_EmailInvalid_ValidationFailed                                (00:00:01.626)     
+[25/07/2019 08:58:22 AM]     PASSED     EmailValidation_EmailNotNullAndValid_Validated                               (00:00:01.735)     
+[25/07/2019 08:58:26 AM]     PASSED     FillDictionary_DictionariesContainSameKeyValuePairs_DictionariesAreEqual     (00:00:01.702)     
+[25/07/2019 08:58:30 AM]     PASSED     GenerateListOfStrings_ReturnsList_ListDoesntContainExpected                  (00:00:01.312)     
+[25/07/2019 08:58:34 AM]     PASSED     IdValidation_UserIdLengthNotEqual10_BusinessRuleExceptionThrown              (00:00:01.725)     
+[25/07/2019 08:58:42 AM]     PASSED     NavigateToReddit_FindElement_ElementFound                                    (00:00:05.089)     
+[25/07/2019 08:58:50 AM]     PASSED     NavigateToReddit_UnableToFindElement_ActivityTimeoutExceptionThrown          (00:00:05.138)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:58:51 AM] ---------- Finished Execution: 8/8 Tests Passed (00:00:48.053) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+========================================================= Test Run Completed =========================================================
+
+========================================================== Test Run Started ==========================================================
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:59:52 AM] ---------- Started Executing [ Tests_Repository\FunctionalTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 08:59:58 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:02.320)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:00:00 AM] ---------- Finished Execution: 1/1 Tests Passed (00:00:08.837) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:00:02 AM] ---------- Started Executing [ Tests_Repository\UnitTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:00:07 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:01.982)     
+[25/07/2019 09:00:12 AM]     PASSED     EmailValidation_EmailInvalid_ValidationFailed                                (00:00:02.170)     
+[25/07/2019 09:00:18 AM]     PASSED     EmailValidation_EmailNotNullAndValid_Validated                               (00:00:02.420)     
+[25/07/2019 09:00:24 AM]     PASSED     FillDictionary_DictionariesContainSameKeyValuePairs_DictionariesAreEqual     (00:00:02.378)     
+[25/07/2019 09:00:29 AM]     PASSED     GenerateListOfStrings_ReturnsList_ListDoesntContainExpected                  (00:00:01.828)     
+[25/07/2019 09:00:35 AM]     PASSED     IdValidation_UserIdLengthNotEqual10_BusinessRuleExceptionThrown              (00:00:02.302)     
+[25/07/2019 09:00:44 AM]     FAILED     NavigateToReddit_FindElement_ElementFound                                    (00:00:05.833)     >> Test execution stopped due to an error: Activity timeout exceeded. Type: UiPath.Core.Activities.ActivityTimeoutException.  Source: Find Element - Reddit Image. <<
+[25/07/2019 09:00:55 AM]     PASSED     NavigateToReddit_UnableToFindElement_ActivityTimeoutExceptionThrown          (00:00:06.293)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:00:57 AM] ---------- Finished Execution: 7/8 Tests Passed (00:01:06.487) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+========================================================= Test Run Completed =========================================================
+
+========================================================== Test Run Started ==========================================================
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:04:13 AM] ---------- Started Executing [ Tests_Repository\FunctionalTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:04:20 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:02.969)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:04:23 AM] ---------- Finished Execution: 1/1 Tests Passed (00:00:11.373) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:04:25 AM] ---------- Started Executing [ Tests_Repository\UnitTests ] ----------
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:04:32 AM]     PASSED     CalculateEquation_ReturnsDecimalValue_DoubleAndDecimalAreNotSame             (00:00:02.636)     
+[25/07/2019 09:04:40 AM]     PASSED     EmailValidation_EmailInvalid_ValidationFailed                                (00:00:02.790)     
+[25/07/2019 09:04:48 AM]     PASSED     EmailValidation_EmailNotNullAndValid_Validated                               (00:00:03.648)     
+[25/07/2019 09:04:56 AM]     PASSED     FillDictionary_DictionariesContainSameKeyValuePairs_DictionariesAreEqual     (00:00:03.260)     
+[25/07/2019 09:05:03 AM]     PASSED     GenerateListOfStrings_ReturnsList_ListDoesntContainExpected                  (00:00:02.431)     
+[25/07/2019 09:05:12 AM]     PASSED     IdValidation_UserIdLengthNotEqual10_BusinessRuleExceptionThrown              (00:00:03.751)     
+[25/07/2019 09:05:23 AM]     FAILED     NavigateToReddit_FindElement_ElementFound                                    (00:00:06.569)     >> Test execution stopped due to an error: Activity timeout exceeded. Type: UiPath.Core.Activities.ActivityTimeoutException.  Source: Find Element - Reddit Image. <<
+[25/07/2019 09:05:36 AM]     PASSED     NavigateToReddit_UnableToFindElement_ActivityTimeoutExceptionThrown          (00:00:07.235)     
+------------------------------------------------------------------------------------------------------------------------------------
+[25/07/2019 09:05:39 AM] ---------- Finished Execution: 7/8 Tests Passed (00:01:27.771) ----------
+------------------------------------------------------------------------------------------------------------------------------------
+========================================================= Test Run Completed =========================================================
