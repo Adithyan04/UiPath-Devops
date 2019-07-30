@@ -18,6 +18,11 @@ agent
                 build job: 'Code and Build'
             }
         }
+	stage ('Code Review') {
+            steps {
+                build job: 'Code Review'
+            }
+        }
         stage ('Deploy') {
             steps {
                 build job: 'Deploy'
