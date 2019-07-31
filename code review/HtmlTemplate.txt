@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Static Code Analysis Report</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+  th{
+    font-size: 16px;
+    line-height: 1.4;
+    background-color: #6c7ae0;
+    border-spacing: 2px;
+    border-color: grey;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+nav{
+ background-color: grey;
+}
+  
+  </style>
+<head>
+<body>
+<nav class="">
+<div class="container">
+        <div class="">
+            <div class="title" style="width: 100%;">
+                <h1 align="center" style="color:black">STATIC CODE ANALYSIS REPORT</h1>  
+            </div>
+        </div>
+    </div>
+	</nav>
+##Report##
+</body>
+</html>
