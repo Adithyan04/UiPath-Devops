@@ -23,14 +23,14 @@ agent
                 build job: 'Code Review'
             }
         }
-        stage ('Deploy') {
-            steps {
-                build job: 'Deploy'
-            }
-        }
-	   stage ('Unit Tests') {
+	stage ('Unit Tests') {
             steps {
                 build job: 'Unit Test'
+            }
+	}
+        stage ('Deploy package to UiPath Orchestrator') {
+            steps {
+                build job: 'Deploy'
             }
         }
         stage('End') {
