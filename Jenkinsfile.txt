@@ -44,7 +44,7 @@ agent
 		def postRC = post.getResponseCode();
 		println(postRC);
 		if(postRC.equals(200)) {
-  		  def output = post.getInputStream().getText());
+  		  def output = post.getInputStream().getText();
 		  println(output);
 	          def json = new groovy.json.JsonSlurper().parseText(output); 
                   def result =json.result;
