@@ -34,6 +34,7 @@ agent
             }
         }
   	stage ('Deploy recent package & run in UiPath Orchestrator') {
+	    steps {	
             script{
                 def post = new URL("https://platform.uipath.com/api/account/authenticate").openConnection();
 		def message = '{"tenancyName": "Adithyan","usernameOrEmailAddress": "adithyan.mahendran@gmail.com","password": "Wipro@123"}';
@@ -50,8 +51,9 @@ agent
                   def result =json.result;
                   println result
 		}
-            }
-        }
+               }
+	      }	
+             }
         stage('End') {
             steps {
                 echo 'Completing DevOps Pipeline'
