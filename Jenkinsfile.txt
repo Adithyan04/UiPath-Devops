@@ -36,7 +36,7 @@ agent
   	stage ('Deploy recent package & run in UiPath Orchestrator') {
 	    steps {	
 		echo 'Hiting Orchestrator API'
-            	java -jar com.rest-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+       		build job: 'Deploy - Current Version'
 	      }	
         }
         stage('End') {
