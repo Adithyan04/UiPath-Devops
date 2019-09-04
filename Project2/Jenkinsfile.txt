@@ -1,0 +1,48 @@
+pipeline {
+agent
+    {
+        node {
+                label 'master'
+                //customWorkspace "${env.JobPath}"
+              }
+    }
+    stages 
+    {
+        stage('Start') {
+            steps {
+                echo 'Starting DevOps Pipeline'
+            }
+        }
+        stage ('Code and Build') {
+            steps {
+                build job: 'Code and Build'
+            }
+        }
+	stage ('Code Review') {
+            steps {
+                build job: 'Code Review'
+            }
+        }
+	stage ('Unit Tests') {
+            steps {
+                build job: 'Unit Test'
+            }
+	}
+        stage ('Deploy package to UiPath Orchestrator') {
+            steps {
+                build job: 'Deploy'
+            }
+        }
+  	stage ('Deploy recent package & run in UiPath Orchestrator') {
+	    steps {	
+		echo 'Hiting Orchestrator API'
+       		build job: 'Deploy - Current Version'
+	      }	
+        }
+        stage('End') {
+            steps {
+                echo 'Completing DevOps Pipeline'
+            }
+        }
+    }
+}
