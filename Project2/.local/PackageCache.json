@@ -2,6 +2,17 @@
   "Packages": [
     {
       "Package": {
+        "Id": "Custom.Activities.VariableComparer",
+        "Version": "2.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\uipathuser\\.nuget\\packages\\custom.activities.variablecomparer/2.1.6\\lib/net451/CustomActivities.VariableComparer.Design.dll",
+        "C:\\Users\\uipathuser\\.nuget\\packages\\custom.activities.variablecomparer/2.1.6\\lib/net451/CustomActivities.VariableComparer.dll",
+        "C:\\Users\\uipathuser\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll"
+      ]
+    },
+    {
+      "Package": {
         "Id": "Microsoft.Activities.Extensions",
         "Version": "2.0.6.9"
       },
@@ -121,17 +132,6 @@
         "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
         "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\uipathuser\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.dll"
-      ]
-    },
-    {
-      "Package": {
-        "Id": "Custom.Activities.VariableComparer",
-        "Version": "2.1.6"
-      },
-      "Assemblies": [
-        "C:\\Users\\uipathuser\\.nuget\\packages\\custom.activities.variablecomparer/2.1.6\\lib/net451/CustomActivities.VariableComparer.Design.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\custom.activities.variablecomparer/2.1.6\\lib/net451/CustomActivities.VariableComparer.dll",
-        "C:\\Users\\uipathuser\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll"
       ]
     }
   ],

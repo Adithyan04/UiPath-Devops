@@ -1200,11 +1200,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "UiPath-DevOps",
-      "projectName": "UiPath-DevOps",
-      "projectPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\Project1\\.local",
+      "projectUniqueName": "PP01_CRM_Process",
+      "projectName": "PP01_CRM_Process",
+      "projectPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\Project2\\.local",
       "packagesPath": "C:\\Users\\uipathuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\Project1\\.local"
+      "outputPath": "C:\\Users\\uipathuser\\Documents\\UiPath\\UiPath-DevOps\\Project2\\.local"
     },
     "frameworks": {
       "net461": {
