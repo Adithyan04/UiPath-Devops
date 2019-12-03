@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>772,1717</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>772,1658</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="42">
@@ -63,7 +63,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="Purpose: This Sequence  used to get the tax id of the workflow with id 'WII4'" DisplayName="Tax ID Generator - Sequence" sap:VirtualizedContainerService.HintSize="732,1637" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Purpose: This Sequence  used to get the tax id of the workflow with id 'WII4'" DisplayName="Tax ID Generator - Sequence" sap:VirtualizedContainerService.HintSize="732,1538" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="WorkItems" />
       <Variable x:TypeArguments="ui:Browser" Name="ACMEBrowser" />
@@ -142,13 +142,13 @@
         <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="314,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Application Exception - Application Login Failed&quot;]" TopMost="True" />
       </If.Else>
     </If>
-    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[WorkItems]" DisplayName="For Each Item in the Worklist" sap:VirtualizedContainerService.HintSize="710,658" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[WorkItems]" DisplayName="For Each Item in the Worklist" sap:VirtualizedContainerService.HintSize="710,559" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="336,510" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="336,411" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -167,7 +167,6 @@
                 <OutArgument x:TypeArguments="x:String" x:Key="out_tax_id">[TaxID]</OutArgument>
               </ui:InvokeWorkflowFile.Arguments>
             </ui:InvokeWorkflowFile>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="314,59" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Tax Id is&quot;+TaxID]" TopMost="True" />
             <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="314,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;Tax Id is&quot;+TaxID]" />
           </Sequence>
         </ActivityAction>
